@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font-awesome css link -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- animation css link -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"><!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>ISLINGTON COLLEGE</title>
+    <style type="text/css">
+    /*blog page*/
+
+    /*internal css*/
+
+    .blog-section {
+        position: relative;
+        overflow: hidden;
+        padding: 20px 0;
+    }
+
+    .blog-details {
+        position: relative;
+        max-width: 31%;
+        float: left;
+        background: red;
+        background: #fff;
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.77);
+        margin-bottom: 50px !important;
+        margin: 10px;
+    }
+
+    .blog-img {
+        overflow: hidden;
+        position: relative;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+
+
+    .blog-img:hover img {
+        transform: scale(1.5);
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+
+    .blog-img img {
+        border-radius: 4px 4px 0 0;
+        max-width: 100%;
+        height: auto;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+
+    .blog-about-image {
+        position: relative;
+    }
+
+    .blog-icon-img {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        padding-top: 8px;
+        text-align: center;
+        position: absolute;
+        background-color: #229dd1;
+        border-radius: 50%;
+        text-align: center;
+        border: 4px solid #fff;
+        left: calc(50% - 32px);
+        bottom: -30px;
+        transition: 0.3s;
+    }
+
+    .blog-icon-img img.icon-img {
+        max-width: 70%;
+    }
+
+    .blog-about-text:hover {
+        background: #f85959;
+    }
+
+    .blog-about-text:hover .blog-about-image>.blog-icon-img {
+        background: #fff;
+    }
+
+    .blog-about-text h2.title {
+        color: #000;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 40px 0 12px 0;
+    }
+
+    .blog-about-text h2.title a {
+        color: #000;
+    }
+
+    .blog-about-text h2.title a:hover {
+        color: #fff;
+    }
+
+    .blog-about-text p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #333;
+        margin-bottom: 0;
+        padding: 0 20px 20px 20px;
+        text-align: justify;
+    }
+
+    .blog-section-wrap {
+        position: relative;
+        clear: both;
+        overflow: hidden;
+    }
+
+    .blog-aspects-details {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .aspect-wrap {
+        position: relative;
+        width: 48%;
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        margin-bottom: 20px !important;
+        box-shadow: 0 0 10px #000;
+    }
+
+    .aspect-title h3 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #f4585b;
+        margin: 20px;
+    }
+
+    .aspect-logo {
+        position: absolute;
+        top: 40px;
+        right: 5px;
+    }
+
+    .aspect-logo img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .aspect-title {
+        padding: 20px;
+    }
+
+    .aspect-wrap ul {
+        margin: 10px 0;
+    }
+
+    .aspect-wrap ul li {
+        padding: 5px;
+    }
+
+    .aspects-wrap-section {
+        position: relative;
+        overflow: hidden;
+    }
+    .li-disc{
+        list-style: inside;
+        margin-left: 20px; 
+        font-size: 15px;>
+    } 
+
+    .verdict-section {
+        position: relative;
+        overflow: hidden;
+        padding: 20px 10px;
+    }
+
+    .verdict-title h3 {
+        text-transform: uppercase;
+        color: #f4585b;
+        margin: 20px 0;
+    }
+
+    .blog-section-title {
+        margin-bottom: 20px;
+    }
+    </style>
+    <!-- End of internal css -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header-section">
+        <div class="menu-header">
+            <div class="container">
+                <div class="menu-content-wrap">
+                    <div class="header-menu-logo left-wrap">
+                        <div class="site-branding">
+                            <a href="index.html"><img src="images/logo.png" alt="Brand"></a>
+                        </div>
+                    </div>
+                    <div class="header-menu-list right-wrap">
+                        <ul id="mainmenu" class="nav navbar-nav nav-menu">
+                            <li class="active"> <a href="index.html">Home</a></li>
+                            <li> <a href="resume.html">Resume</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="blog.html">Blogs</a></li>
+                            <li> <a href="research.html">Research</a></li>
+                            <li> <a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- /Header Section -->
+    <!-- breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb-title">
+                <div class="breadcrumb-text-title">
+                    <ul>
+                        <li><a href="index.html">Home</a><i class="fa fa-angle-double-right"></i></li>
+                        <li>blog</li>
+                    </ul>
+                    <h3>Blog</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of breadcrumb -->
+    <!-- blog section -->
+    <div class="blog-section">
+        <div class="container">
+            <div class="blog-section-title">
+                <h1 style="font-size: 36px;line-height: 1;margin: 40px 0;font-weight: bold;text-align: center;color:#f4585b;">Introduction to Latest Technologies</h1> <!-- inline css -->
+                <p style="font-size: 20px; text-align: justify;">
+     Technology could be a body of information committed to making devices, handling actions and the extracting of materials. The term ‘Technology” is wide, and everybody has their way of understanding its meaning. We utilize innovation to achieve different assignments in our day by day lives, in brief; able to portray technology as items and forms utilized to disentangle our daily lives. We utilize innovation to expand our abilities, making individuals the foremost vital portion of any innovative framework. Innovation is additionally an application of science utilized to illuminate issues. But it is crucial to know that innovation and science are different subjects which work hand-in-hand to achieve particular assignments or unravel problems. We apply technology in nearly everything we do in our every day lives; we utilize innovation at work, we use innovation for communication, transportation, learning, fabricating, securing information, scaling businesses and so much more. Technology is human information which includes instruments, materials, and systems.</br></br>Some of the latest technologies are discussed below:</p>
+               
+            </div>
+            <div class="blog-section-wrap">
+                <div class="blog-details wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <!-- Inline Css -->
+                    <div class="blog-about-image">
+                        <div class="blog-img">
+                            <img src="images/blog/1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="blog-icon-img">
+                            <img src="images/blog.png" alt="" class="icon-img">
+                        </div>
+                    </div>
+                    <div class="blog-about-text">
+                        <h2 class="title"><a target="_blank" href="https://searchenterpriseai.techtarget.com/definition/AI-Artificial-Intelligence">Artificial Intelligence (AI)</a></h2>
+                        <p>
+                            Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing (NLP), speech recognition and machine vision.</br>AI programming focuses on three cognitive skills: learning, reasoning and self-correction.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-details wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="blog-about-image">
+                        <div class="blog-img">
+                            <img src="images/blog/2.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="blog-icon-img">
+                            <img src="images/blog.png" alt="" class="icon-img">
+                        </div>
+                    </div>
+                    <div class="blog-about-text">
+                        <h2 class="title"><a target="_blank" href="https://www.livescience.com/topics/drones">Drone Technology (UAVs)</a></h2>
+                        <p>
+                            Drones, also called unmanned aerial vehicles, have no human pilot onboard, and instead are either controlled by a person on the ground or through by computer program. These craft are becoming popular day by day, not just for war and military purposes, but also for everything from wildlife and atmospheric research to disaster relief and sports photography.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-details wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="blog-about-image">
+                        <div class="blog-img">
+                            <img src="images/blog/3.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="blog-icon-img">
+                            <img src="images/blog.png" alt="" class="icon-img">
+                        </div>
+                    </div>
+                    <div class="blog-about-text">
+                        <h2 class="title"><a target="_blank" href="https://en.wikipedia.org/wiki/Cloud_computing">Cloud Computing</a></h2>
+                        <p>
+                            Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet.If the connection to the user is relatively close, it may be designated an edge server.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-aspects-details">
+                <div class="aspects-wrap-section">
+                    <div class="aspect-wrap">
+                        <div class="aspect-logo">
+                            <img src="./images/blog/po.jpg" alt="positive aspect logo">
+                        </div>
+                        <div class="aspect-title">
+                            <h3>positive aspect</h3>
+                        </div>Technology has a lots of psoditive aspects. It has made us easy in day to day activities. Some of them are listed below;
+                        <ul>
+                            <li class="li-disc">Provides information about what is happening in each and every corner of the world in a second</li>
+                            <li class="li-disc">Great source of entertainment.</li>
+                            <li class="li-disc">Due to advancement in communication technology, it makes us feel easy and comfortable though someone is apart from their friends and relatives through differnt social medias and soon.</li>
+                            <li class="li-disc">A great to run day to day activities and tasks.</li>
+                            <li class="li-disc">Good for military defense</li>
+                        </ul>
+                    </div>
+                    <div class="aspect-wrap">
+                        <div class="aspect-logo">
+                            <img src="./images/blog/ne.jpg" alt="negative aspect logo">
+                        </div> 
+                        <div class="aspect-title">
+                            <h3>negative aspect</h3>
+                        </div>Each and every things has its merits and de-merits. Similarly, technology has some drawbacks. Some of them are listed below;
+                        <ul>
+                            <li class="li-disc"> Due to over usage of new technology, health of the human has been affected day by day</li>
+                            <li class="li-disc">Missuse of social sites lead students in their education fields.</li>
+                            <li class="li-disc">Privacy violates the creativity of an individual</li>
+                            <li class="li-disc">The use of social networks at work can cause so much distraction and it affects the productivity of employees.</li>
+                            <li class="li-disc">People are becoming dull and memory power is reducing day by day due to  advancement of technology</li>                        
+                        </ul>
+                    </div>
+                </div>
+                <div class="verdict-section">
+                    <div class="verdict-title">
+                        <h3>verdict</h3>
+                        <p align="justify">Technology has both advantages and disadvantages. Mainly, technology are created and designed for the welfare of the mankind. All humans are not same so some are enjoying the advancement of technology and some are misusing it.Additionally, technology is the application of math, science, and the arts for the benefit of life as it is known. A modern example is the rise of communication technology, which has lessened barriers to human interaction and as a result has helped spawn new subcultures; the rise of cyberculture has at its basis the development of the Internet and the computer. Thus, technology have far better psositive vibes than its negative one. Therefore, the advancement of technology in education, transportation, health, military, communication and soon sector has gained a lots of benefits. Thus, we can say that, positive impact out-weighed the negative impacts of technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+            <div class="footer-background">
+                <div class="container contact-bottom">
+                    <div class="dashed-bottom">
+                        <div class="footer-widget">
+                            <h3>Information</h3>
+                            <ul>
+                                <li> <a href="resume.html">Resume</a></li>
+                                <li> <a href="portfolio.html">Portfolio</a></li>
+                                <li> <a href="blog.html">Blogs</a></li>
+                                <li> <a href="research.html">Research</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-last footer-widget">
+                            <ul>
+                                <h3>Address</h3>
+                                <li><i class="fa fa-map-marker"></i>Kalaiya, Bara Nepal</li>
+                                <li><i class="fa fa-phone"></i>+977- 9869266041</li>
+                                <li><i class="fa fa-phone"></i>053-540084</li>
+                                <li><a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope"></i>devilyadav234@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h3>Social link</h3>
+                            <div class="footer-last-social-link">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-google"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-footer">
+                    <div class="container">
+                        <div class="copyright-text">
+                            <p>Ramkrishna © 2021. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- Optional JavaScript -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font-awesome css link -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- animation css link -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"><!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>ISLINGTON COLLEGE</title>
+    <style type="text/css">
+    	/*portfolio page*/
+    	/*internal css*/
+    .Portfolio-section {
+        position: relative;
+        display: block;
+        padding: 70px 0;
+    }
+
+    .portfolio-wrap {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .portfolio-body {
+        position: relative;
+        max-width: 31%;
+        float: left;
+        margin: 10px;
+        box-shadow: 0 0 5px #000;
+    }
+
+    .portfolio-body:hover .portfolio-image:before {
+        opacity: 1;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+
+    .portfolio-body:hover .portfolio-text {
+        opacity: 1;
+        transform: scale(1) rotateX(0deg);
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+    }
+
+    .portfolio-text {
+        width: 100%;
+        padding: 0 30px;
+        position: absolute;
+        text-align: center;
+        top: 70px;
+        left: 0;
+        opacity: 0;
+        transform: scale(0.5) rotateX(360deg);
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+    }
+
+    .portfolio-text h3 {
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0 0 10px;
+    }
+
+    .portfolio-text a {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin: 5px 0 0;
+        background: #0069a7;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
+    .portfolio-text a:hover {
+        background: #fff;
+        color: #0069a7;
+
+    }
+
+    .portfolio-image {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .portfolio-image:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+    </style>
+     <!-- End of internal css -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header-section">
+        <div class="menu-header">
+            <div class="container">
+                <div class="menu-content-wrap">
+                    <div class="header-menu-logo left-wrap">
+                        <div class="site-branding">
+                            <a href="index.html"><img src="images/logo.png" alt="Brand"></a>
+                        </div>
+                    </div>
+                    <div class="header-menu-list right-wrap">
+                        <ul id="mainmenu" class="nav navbar-nav nav-menu">
+                            <li class="active"> <a href="index.html">Home</a></li>
+                            <li> <a href="resume.html">Resume</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="blog.html">Blogs</a></li>
+                            <li> <a href="research.html">Research</a></li>
+                            <li> <a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- /Header Section -->
+    <!-- breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb-title">
+                <div class="breadcrumb-text-title">
+                    <ul>
+                        <li><a href="index.html">Home</a><i class="fa fa-angle-double-right"></i></li>
+                        <li>Portfolio</li>
+                    </ul>
+                    <h3>Portfolio</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of breadcrumb -->
+    <!-- portfolio section   -->
+    <div class="Portfolio-section">
+        <div class="container">
+            <div class="portfolio-wrap">
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/data.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Emerging programming Platform</h3>
+                        <a target="_blank" href="./images/portfolio/data.pdf">read more</a>
+                    </div>
+                </div>
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/resume.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Curriculum Vitae (CV)</h3>
+                        <a target="_blank" href="./images/portfolio/resume.pdf">read more</a>
+                    </div>
+                </div>
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/eca.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Extra Curricular Activities (ECA)</h3>
+                        <a target="_blank" href="./images/portfolio/eca.pdf">read more</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/c1.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Programming</h3>
+                        <a target="_blank" href="./images/portfolio/c1.pdf">read more</a>
+                    </div>
+                </div>
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/js.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Learning about Java Script</h3>
+                        <a target="_blank" href="https://www.w3schools.com/js/">read more</a>
+                    </div>
+                </div>
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/pro.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Database Management </h3>
+                        <a target="_blank" href="./images/portfolio/pro.pdf">read more</a>
+                    </div>
+
+                </div>
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/more.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>XML project </h3>
+                        <a target="_blank" href="./images/portfolio/more.pdf">read more</a>
+                    </div>
+                    
+                </div>
+                <div class="portfolio-body">
+                    <div class="portfolio-image">
+                        <img src="./images/portfolio/photo.jpg" alt="My First Portfolio">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Learning about Photoshop 2019</h3>
+                        <a target="_blank" href="https://www.w3schools.in/category/photoshop/">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-background">
+            <div class="container contact-bottom">
+                <div class="dashed-bottom">
+                    <div class="footer-widget">
+                        <h3>Information</h3>
+                        <ul>
+                            <li> <a href="resume.html">Resume</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="blog.html">Blogs</a></li>
+                            <li> <a href="research.html">Research</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-last footer-widget">
+                        <ul>
+                            <h3>Address</h3>
+                            <li><i class="fa fa-map-marker"></i>kalaiya, Bara Nepal</li>
+                            <li><i class="fa fa-phone"></i>+977- 9869266041</li>
+                            <li><a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope"></i>devilydav234@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h3>Social link</h3>
+                        <div class="footer-last-social-link">
+                            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-google"></i></a>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <div class="container">
+                    <div class="copyright-text">
+                        <p>Ramkrishna © 2021. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font-awesome css link -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- animation css link -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"><!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>ISLINGTON COLLEGE</title>
+    <style type="text/css">
+    	/*contact page*/
+    	/*internal css*/
+    .contact-us-section {
+        position: relative;
+        padding: 70px 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    .contact-title h3 {
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-title h3 span {
+        color: #f4585b;
+    }
+
+    .contact-details-section {
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
+    .contact-details-body {
+        width: 31%;
+        float: left;
+        display: inline-block;
+        position: relative;
+        margin: 10px;
+        padding: 20px 40px;
+        text-align: center;
+        border-right: 2px solid #ddd;
+    }
+
+    .contact-details-body:last-child {
+        border-right: none;
+    }
+
+    .contact-icon i {
+        font-size: 35px;
+        color: #f4585b;
+        border-radius: 100%;
+    }
+
+    .contact-details-text h3 {
+        font-size: 20px;
+        margin: 12px 0;
+        font-weight: 400;
+    }
+
+    .form-group {
+        position: relative;
+        display: block;
+    }
+
+    .form-groups {
+        position: relative;
+        display: block;
+    }
+
+    .form-group input {
+        width: 100%;
+        height: 52px;
+        border: 1px solid #ddd;
+        padding-left: 10px;
+        border-radius: 5px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        font-weight: 400;
+        border-radius: 0px;
+        background: #F6FAFA;
+        outline: none;
+    }
+
+    .contact-form-body {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .contact-half {
+        width: 48%;
+        float: left;
+        margin: 10px;
+    }
+
+    .contact-full {
+        margin: 10px;
+    }
+
+    .form-group textarea {
+        width: 100%;
+        height: 160px;
+        border: 1px solid #ddd;
+        padding-left: 10px;
+        border-radius: 5px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        font-weight: 400;
+        border-radius: 0px;
+        background: #F6FAFA;
+        outline: none;
+    }
+
+    .button input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #f85959;
+        font-size: 17px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #fff;
+        border: 1px solid #fff;
+        display: inline-block;
+        position: relative;
+        margin: 0 10px;
+        text-align: c;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .contact-form {
+        position: relative;
+        padding-bottom: 50px;
+    }
+    </style>
+     <!-- End of internal css -->
+    <title>ISLINGTON COLLEGE</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header-section">
+        <div class="menu-header">
+            <div class="container">
+                <div class="menu-content-wrap">
+                    <div class="header-menu-logo left-wrap">
+                        <div class="site-branding">
+                            <a href="index.html"><img src="images/logo.png" alt="Brand"></a>
+                        </div>
+                    </div>
+                    <div class="header-menu-list right-wrap">
+                        <ul id="mainmenu" class="nav navbar-nav nav-menu">
+                            <li class="active"> <a href="index.html">Home</a></li>
+                            <li> <a href="resume.html">Resume</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="blog.html">Blogs</a></li>
+                            <li> <a href="research.html">Research</a></li>
+                            <li> <a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- /Header Section -->
+    <!-- breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb-title">
+                <div class="breadcrumb-text-title">
+                    <ul>
+                        <li><a href="index.html">Home</a><i class="fa fa-angle-double-right"></i></li>
+                        <li>contact us</li>
+                    </ul>
+                    <h3>Contact Us</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of breadcrumb -->
+    <div class="contact-us-section">
+        <div class="container">
+            <div class="contact-title">
+                <h3>get in <span> touch</span></h3>
+            </div>
+            <div class="contact-form">
+                <form name="messageForm" onsubmit="validateForm()">
+                    <div class="contact-form-body">
+                        <div class="contact-half">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Name" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="contact-half">
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="contact-half">
+                            <div class="form-group">
+                                <input type="text" name="phone" value="" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="contact-half">
+                            <div class="form-group">
+                                <input type="text" name="address" placeholder="Address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-full">
+                        <div class="form-group">
+                            <textarea name="message" rows="8" placeholder="Your Comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="contact-full">
+                        <div class="button">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-details-section">
+                <div class="contact-details-body">
+                    <div class="contact-icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="contact-details-text">
+                        <h3>Kalaiya, Bara Nepal</h3>
+                    </div>
+                </div>
+                <div class="contact-details-body">
+                    <div class="contact-icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="contact-details-text">
+                        <h3>+977- 9869266041</h3>
+                    </div>
+                </div>
+                <div class="contact-details-body">
+                    <div class="contact-icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="contact-details-text">
+                        <h3>devilyadav234@gmail.com</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+   <footer>
+            <div class="footer-background">
+                <div class="container contact-bottom">
+                    <div class="dashed-bottom">
+                        <div class="footer-widget">
+                            <h3>Information</h3>
+                            <ul>
+                                <li> <a href="resume.html">Resume</a></li>
+                                <li> <a href="portfolio.html">Portfolio</a></li>
+                                <li> <a href="blog.html">Blogs</a></li>
+                                <li> <a href="research.html">Research</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-last footer-widget">
+                            <ul>
+                                <h3>Address</h3>
+                                <li><i class="fa fa-map-marker"></i>Kalaiya, Bara Nepal</li>
+                                <li><i class="fa fa-phone"></i>+977- 9869266041</li>
+                                <li><i class="fa fa-phone"></i>053-540084</li>
+                                <li><a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope"></i>devilyadav234@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <h3>Social link</h3>
+                            <div class="footer-last-social-link">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-google"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-footer">
+                    <div class="container">
+                        <div class="copyright-text">
+                            <p>Ramkrishna © 2021. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- Optional JavaScript -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script>
+    function validateForm() {
+        var name = document.forms["messageForm"]["name"].value;
+        var email = document.forms["messageForm"]["email"].value;
+        var phone = document.forms["messageForm"]["phone"].value;
+        var address = document.forms["messageForm"]["address"].value;
+        var message = document.forms["messageForm"]["message"].value;
+
+        if (name == "" || email == "" || phone == "" || address == "" || message == "") {
+            alert("Empty fields found. Please fill the empty box.");
+        } else {
+            alert("Thank you for the comment.");
+        }
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font-awesome css link -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- animation css link -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"><!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>ISLINGTON COLLEGE</title>
+
+   
+    <style type="text/css">
+    	/*resume page*/
+
+    	 /*internal css*/
+
+    .cv-section {
+        position: relative;
+        padding: 5px 0;
+        overflow: hidden;
+    }
+
+    .cv-image-section {
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .cv-section-image:hover .cv-image-section:after {
+        transform: rotate(350deg);
+    }
+
+    .cv-image-section:before,
+    .cv-image-section:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 3px solid #f7f7f7;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+    }
+
+    .cv-image-section:after {
+        border-color: #000000d9 #fb4e0a;
+        z-index: 1;
+        transform: rotate(100deg);
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+    }
+
+
+
+    .cv-image-section img {
+        width: 100%;
+        height: auto;
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+    }
+
+    .cv-body-left {
+        position: relative;
+        width: 25%;
+        float: left;
+        padding: 15px;
+        background-image: linear-gradient(45deg, #29323b, #4729b4);
+
+
+    }
+
+    .cv-section-image h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    .cv-body-left h3 {
+        margin: 25px 0 10px 0;
+    }
+
+
+    .cv-body-left .cv-section-text h3 {
+        color: #fff !important;
+    }
+
+    .cv-body-left li {
+        color: #fff;
+    }
+
+    .cv-section-image ul li {
+        display: block;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom: 14px;
+    }
+
+    .cv-section-image ul li i {
+        font-size: 20px;
+        margin-right: 10px;
+        color: #f5585b;
+    }
+
+    .cv-section-image {
+        position: relative;
+    }
+
+    .cv-section-text h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #222;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    .cv-section-text ul li {
+        position: relative;
+        font-size: 18px;
+        padding: 5px 0 5px 20px;
+        font-weight: 400;
+    }
+
+    .cv-section-text ul li:before {
+        position: absolute;
+        content: "\f0a4";
+        font-family: "Fontawesome";
+        left: 0px;
+        color: #f5585b;
+    }
+
+    .cv-section-text ul li span {
+        color: #f5585b;
+        margin-left: 10px;
+        text-transform: capitalize;
+    }
+
+    .cv-body-right {
+        position: relative;
+        width: 75%;
+        float: right;
+        padding: 0 10px;
+        background: #eee;
+    }
+
+
+    .person-name {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        padding: 10px;
+        background: #f5585b;
+    }
+
+    .person-name h3 {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 300;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    .person-name p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 200;
+
+    }
+
+    .cv-body-right h3 {
+        background: #f5585b;
+        padding: 10px;
+        margin: 20px 0 10px 0;
+    }
+
+    .cv-section-text li.li-disc {
+        list-style: disc;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .cv-section-text li.li-disc:before {
+        display: none;
+    }
+    </style>
+    <!-- End of internal css -->
+    <title>Ramkrishna Yadav</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header-section">
+        <div class="menu-header">
+            <div class="container">
+                <div class="menu-content-wrap">
+                    <div class="header-menu-logo left-wrap">
+                        <div class="site-branding">
+                            <a href="index.html"><img src="images/logo.png" alt="Brand"></a>
+                        </div>
+                    </div>
+                    <div class="header-menu-list right-wrap">
+                        <ul id="mainmenu" class="nav navbar-nav nav-menu">
+                            <li class="active"> <a href="index.html">Home</a></li>
+                            <li> <a href="resume.html">Resume</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="blog.html">Blogs</a></li>
+                            <li> <a href="research.html">Research</a></li>
+                            <li> <a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- /Header Section -->
+    <!-- breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb-title">
+                <div class="breadcrumb-text-title">
+                    <ul>
+                        <li><a href="index.html">Home</a><i class="fa fa-angle-double-right"></i></li>
+                        <li>resume</li>
+                    </ul>
+                    <h3>Resume</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of breadcrumb -->
+    <div class="cv-section">
+        <div class="container">
+            <div class="cv-body">
+                <div class="cv-body-left">
+                    <div class="cv-section-image">
+                        <div class="cv-image-section">
+                            <img src="./images/cv-Ram.jpg" alt="kamal poudel">
+                        </div>
+                        <div class="cv-detail-text">
+                            <h3>Contact</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i>Kalaiya, Bara, Nepal</li>
+                                <li><i class="fa fa-phone"></i>053-5400784</li>
+                                <li><i class="fa fa-phone"></i>+977-9869266041</li>
+                                <li><i class="fa fa-envelope"></i>devilyadav234@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cv-section-text">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>School<span>
+                                    <p>Enrollment Date: 2003-2015
+                                </span></br> Name: Shreeshiddhi Vinayak Boarding Secondary School</br> Location: Kalaiya-09, Bara </p>
+                            </li>
+                            <li>10+2<span>
+                                    <p>Enrollment Date: 2016-2017
+                                </span>
+                                </br> Name: Nasa International College
+                                </br> Faculty: Physical Science
+                                </br> Location: Tinkune, kathmandu</p>
+                            </li>
+                            <li>Bachelor<span>
+                                    <p>Enrollement Date: 2019- Present
+                                </span></br>Name: Islington College</br>Specialization: BIT(Hons)- Computing</br>Location: Kamal Pokhari, Kathmandu</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cv-section-text">
+                        <h3>Language</h3>
+                        <ul>
+                            <li>Nepali</li>
+                            <li>English</li>
+                            <li>Hindi</li>
+                            <li>Bhojpuri</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cv-body-right">
+                    <div class="person-name">
+                        <h3>Ramkrishna Yadav</h3>
+                        <p>Web Designer and Programmer</p>
+                    </div>
+                    <div class="cv-section-text bg">
+                        <h3>Profile</h3>
+                        <p>Hello, my name is Ramkrishna Yadav, I am doing graduation on Islington college. I take up my education on Computing field as I am intersested in web designing and software developing from the school level. </br> Academically, I dedicate myself in learning the programming in order to achieve my goal and vision. Due to my vision on this field, I am using different technologies and my skill are increasing day by day. It is my mission to be a extra-ordinary web designer and software developer in coming future.</p>
+                    </div>
+                    <div class="cv-section-text">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>ABC Tech Innovation, Kalanki, Kathmandu</br>
+                                <p>
+                                    <b> Intern as Junior Software Programmer (2018-May-02 to 2018-Oct-01)</b></br>
+                                    <b>Core Technologies:</b> C, C++, Visual Basic, Python</br>
+                                    Serve as junior assistant in software application development using C, C++ and soon. Install and configure test environments, troubleshoot design issues, and mentor clients in installing systems upgrades. Provide continuing evaluation of software functionality. <b>Key Achievement:</b></br></p>
+                            <li class="li-disc">Help the company to complete the new software about<b> "Training workshops" </b>on-time which is given by the clients.</li>
+                            <li class="li-disc">Elaborate my skills in developing and designing sector.</li>
+                            <li class="li-disc">Received awards and token of love as doing great works with this company teammates.</li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cv-section-text">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>IT Specialist</li>
+                            <li>Software Developer</li>
+                            <li>Java Programming</li>
+                            <li>Python Programming</li>
+                            <li>Web Designer</li>
+                            <li>Graphics Editor</li>
+                        </ul>
+                    </div>
+                    <div class="cv-section-text">
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li>Submline Text 3</li>
+                            <li>HTML 5</li>
+                            <li>Java Script</li>
+                            <li>Visual Studio Code</li>
+                            <li>Balsamiq Mockups 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-background">
+            <div class="container contact-bottom">
+                <div class="dashed-bottom">
+                    <div class="footer-widget">
+                        <h3>Information</h3>
+                        <ul>
+                            <li> <a href="resume.html">Resume</a></li>
+                            <li> <a href="portfolio.html">Portfolio</a></li>
+                            <li> <a href="blog.html">Blogs</a></li>
+                            <li> <a href="research.html">Research</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-last footer-widget">
+                        <ul>
+                            <h3>Address</h3>
+                            <li><i class="fa fa-map-marker"></i>kalaiya, Bara Nepal</li>
+                            <li><i class="fa fa-phone"></i>+977- 9869266041</li>
+                            <li><a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope"></i>devilydav234@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget">
+                        <h3>Social link</h3>
+                        <div class="footer-last-social-link">
+                            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-google"></i></a>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <div class="container">
+                    <div class="copyright-text">
+                        <p>Ramkrishna © 2021. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+
+</html>
